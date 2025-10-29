@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Ali Novruz</h1>
+<h1 align="center"> Ali Novruz</h1>
 <h3 align="center">Backend developer from Azerbaijan</h3>
 
 <img align="right" height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3djaTN4bHY1cW5lY3J0YmlvcG8wamlsYml5ejA2NTFubTl4bmI0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" />
