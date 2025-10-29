@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&text=Ali%20Novruz&fontSize=44&fontAlignY=30&fontColor=58A6FF&height=60&animation=fadeIn" alt="Ali Novruz banner" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&text=Ali%20Novruz&fontSize=44&fontAlignY=38&fontColor=58A6FF&height=68&animation=fadeIn" alt="Ali Novruz banner" />
   <br/>
   <img src="https://img.shields.io/badge/Backend%20Developer-AZERBAIJAN-1F6FEB?style=for-the-badge&labelColor=0D1117&logo=none" alt="Backend developer from Azerbaijan" />
 </div>
