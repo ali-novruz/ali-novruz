@@ -86,5 +86,5 @@
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=ali-novruz&hide_border=true&background=0D1117&date_format=%5BY.%5Dn.j&ring=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9" alt="GitHub Streak" />
+  <img src="https://streak-stats.vercel.app/?user=ali-novruz&hide_border=true&background=0D1117&date_format=%5BY.%5Dn.j&ring=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9&cache_seconds=86400" alt="GitHub Streak" />
 </div>
