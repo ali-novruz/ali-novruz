@@ -1,6 +1,19 @@
 <h1 align="center">Ali Novruz</h1>
 <h3 align="center">Backend developer from Azerbaijan</h3>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=650&lines=Backend+Engineer+%7C+Java+%26+Kotlin+%7C+Spring+Ecosystem;Docker+%2F+Kubernetes+%7C+PostgreSQL+%7C+Redis;Open+to+collaboration+and+new+opportunities" alt="typing intro" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ali-novruz?tab=followers">
+    <img src="https://img.shields.io/github/followers/ali-novruz?style=for-the-badge&logo=github&label=Followers&labelColor=181824&color=2ea043" alt="followers" />
+  </a>
+  <a href="https://github.com/ali-novruz?tab=repositories&sort=stargazers">
+    <img src="https://img.shields.io/github/stars/ali-novruz?style=for-the-badge&logo=github&label=Stars&labelColor=181824&color=58a6ff" alt="stars" />
+  </a>
+</p>
+
 <div align="center">
   <img height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3djaTN4bHY1cW5lY3J0YmlvcG8wamlsYml5ejA2NTFubTl4bmI0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" />
 </div>
