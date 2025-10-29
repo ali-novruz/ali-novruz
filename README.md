@@ -36,7 +36,7 @@
     <img src="https://img.shields.io/static/v1?message=GitLab&logo=gitlab&label=&color=FC6D26&logoColor=white&labelColor=181824&style=for-the-badge" height="35" alt="gitlab" />
   </a>
   <a href="https://www.linkedin.com/in/ali-novruz-447115356/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=181824&style=for-the-badge" height="35" alt="linkedin" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=181824" height="35" alt="linkedin" />
   </a>
 </div>
 
