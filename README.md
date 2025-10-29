@@ -114,7 +114,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="32" alt="androidstudio" />
 </div>
 
-<h3 align="left">Tech stack (grouped)</h3>
+<h3 align="left">Tech stack </h3>
 <ul>
   <li>Languages: Java, Kotlin, Python</li>
   <li>Backend: Spring Boot, Spring Cloud</li>
