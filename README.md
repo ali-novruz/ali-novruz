@@ -32,11 +32,13 @@
   </a>
 </p>
 
-- 🔭 I’m currently working on <a href="https://github.com/ali-novruz/RemotePatientMonitoringSystem">Remote Patient Monitoring System</a>
-
-- 🌱 I’m currently learning <b>Java, Kotlin, Ruby</b>
-
-- 📫 How to reach me: <b><a href="mailto:alinovruz29@gmail.com">alinovruz29@gmail.com</a></b>
+<h3 align="left">At a glance</h3>
+<ul>
+  <li>Designing and building <a href="https://github.com/ali-novruz/RemotePatientMonitoringSystem">Remote Patient Monitoring System</a> — Spring Boot • PostgreSQL • Redis • Kafka • Docker • Kubernetes</li>
+  <li>Focus areas: Domain‑Driven Design, event‑driven microservices, observability (Prometheus/Grafana), CI/CD automation</li>
+  <li>Deepening: JVM performance and concurrency (Java/Kotlin) + Ruby for tooling</li>
+  <li>Contact: <a href="mailto:alinovruz29@gmail.com">alinovruz29@gmail.com</a></li>
+</ul>
 
 <h3 align="left">Connect with me</h3>
 <div align="left">
