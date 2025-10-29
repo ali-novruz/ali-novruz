@@ -74,11 +74,7 @@
   </a>
  </div>
 
-<p align="left">
-  <a href="mailto:alinovruz29@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-alinovruz29%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=white&labelColor=181824&color=D14836" alt="Email Ali Novruz" /></a>
-  <a href="https://www.linkedin.com/in/ali-novruz-447115356/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-Ali%20Novruz-0D1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=181824&color=0A66C2" alt="Ali Novruz on LinkedIn" /></a>
-  <a href="#" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Download%20CV-PDF-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=181824&color=E53935" alt="Download Ali Novruz CV (PDF)" /></a>
-</p>
+ 
 <br/>
 
 <h3 align="left">Languages & Tools</h3>
