@@ -1,8 +1,11 @@
 name: Generate snake
 
+permissions:
+  contents: write
+
 on:
   schedule:
-    - cron: "0 */12 * * *"     # günde 2 kez
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -11,10 +14,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false   # güvenli; push'u bir sonraki adım yapacak
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
-          github_user_name: ali-novruz   # kendi kullanıcı adın
+          github_user_name: ali-novruz
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
