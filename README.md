@@ -117,12 +117,10 @@
 
 <h3 align="left">Tech stack (grouped)</h3>
 <ul>
-  <li>Languages: Java, Kotlin, Python, TypeScript</li>
-  <li>Backend: Spring Boot, Spring Cloud, WebFlux, gRPC</li>
+  <li>Languages: Java, Kotlin, Python</li>
+  <li>Backend: Spring Boot, Spring Cloud</li>
   <li>Data: PostgreSQL (BTREE/GiST/GIN), Redis (streams, bloom), Kafka</li>
-  <li>Infra: Docker, Kubernetes, Helm, ArgoCD, GitHub Actions</li>
-  <li>Observability: OpenTelemetry, Prometheus, Grafana, Loki, Tempo</li>
-  <li>Testing: JUnit 5, Testcontainers, WireMock, k6</li>
+  <li>Infra: Docker, Kubernetes, GitHub Actions</li>
 </ul>
 
 <br/>
