@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&text=Ali%20Novruz&fontSize=48&fontAlignY=40&fontColor=58A6FF&height=90&animation=fadeIn" alt="Ali Novruz banner" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&text=Ali%20Novruz&fontSize=48&fontAlignY=35&fontColor=58A6FF&height=70&animation=fadeIn" alt="Ali Novruz banner" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Backend%20Developer-%F0%9F%87%B0%F0%9F%87%BF%20Azerbaijan-1F6FEB?style=for-the-badge&labelColor=0D1117" alt="Backend developer from Azerbaijan" />
+  <img src="https://img.shields.io/badge/Backend%20Developer-AZERBAIJAN-1F6FEB?style=for-the-badge&labelColor=0D1117&logo=none" alt="Backend developer from Azerbaijan" />
 </p>
 
 <p align="center">
