@@ -137,3 +137,12 @@
   <img src="https://streak-stats.vercel.app/?user=ali-novruz&hide_border=true&background=0D1117&date_format=%5BY.%5Dn.j&ring=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9&cache_seconds=86400" alt="Ali Novruz GitHub contribution streak" />
 </div>
 
+
+<h3 align="left">Contribution Snake</h3>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ali-novruz/ali-novruz/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ali-novruz/ali-novruz/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/ali-novruz/ali-novruz/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
