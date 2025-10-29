@@ -148,14 +148,3 @@
   <img src="https://streak-stats.vercel.app/?user=ali-novruz&hide_border=true&background=0D1117&date_format=%5BY.%5Dn.j&ring=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9&cache_seconds=86400" alt="Ali Novruz GitHub contribution streak" />
 </div>
 
-<h3 align="left">Recent activity</h3>
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
-<h3 align="left">Latest blog posts</h3>
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
-<h3 align="left">Weekly dev metrics</h3>
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
