@@ -72,6 +72,9 @@
   <a href="https://www.linkedin.com/in/ali-novruz-447115356/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0A66C2&logoColor=white&labelColor=181824&style=for-the-badge&logoWidth=20&cacheSeconds=3600" height="35" alt="linkedin" />
   </a>
+  <a href="#" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Download%20CV-PDF-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=181824&color=E53935" height="35" alt="download cv (pdf)" />
+  </a>
  </div>
 
  
