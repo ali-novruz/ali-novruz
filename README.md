@@ -76,13 +76,15 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ali-novruz&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=ali-novruz&show_icons=true&hide_border=true&bg_color=0d1117&theme=github_dark&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff"
+    alt="GitHub Stats" height="170" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ali-novruz&layout=compact&hide_border=true&bg_color=0d1117&theme=github_dark&title_color=58a6ff&text_color=c9d1d9"
+    alt="Top Languages" height="170" />
+  
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ali-novruz&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=ali-novruz&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=ali-novruz&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
 </div>
