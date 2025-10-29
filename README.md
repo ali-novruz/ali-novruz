@@ -55,13 +55,6 @@
   <li>Testcontainers-first CI, robust integration tests, production-like staging</li>
 </ul>
 
-<h3 align="left">Featured projects</h3>
-
-| Project | What it does | Stack | Links |
-|---|---|---|---|
-| Remote Patient Monitoring System | Stream vitals, detect anomalies, notify clinicians | Spring Boot, Kafka, Postgres, Redis, K8s | <a href="https://github.com/ali-novruz/RemotePatientMonitoringSystem">Repo</a> |
-| Rate-limited API Gateway | Token bucket + leaky bucket with Redis | Kotlin, Spring WebFlux, Redis | <a href="#">Repo</a> |
-| E2E Observability Lab | Traces + metrics + logs with SLOs | OpenTelemetry, Prometheus, Grafana, Tempo, Loki | <a href="#">Repo</a> |
 
 <h3 align="left">Connect with me</h3>
 <div align="left">
