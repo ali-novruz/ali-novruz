@@ -1,5 +1,9 @@
-<h1 align="center">Ali Novruz</h1>
-<h3 align="center">Backend developer from Azerbaijan</h3>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&text=Ali%20Novruz&fontSize=48&fontAlignY=40&fontColor=58A6FF&height=90&animation=fadeIn" alt="Ali Novruz banner" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Backend%20Developer-%F0%9F%87%B0%F0%9F%87%BF%20Azerbaijan-1F6FEB?style=for-the-badge&labelColor=0D1117" alt="Backend developer from Azerbaijan" />
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=650&lines=Backend+Engineer+%7C+Java+%26+Kotlin+%7C+Spring+Ecosystem;Docker+%2F+Kubernetes+%7C+PostgreSQL+%7C+Redis;Open+to+collaboration+and+new+opportunities" alt="typing intro" />
