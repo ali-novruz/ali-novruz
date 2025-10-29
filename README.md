@@ -1,9 +1,8 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&text=Ali%20Novruz&fontSize=48&fontAlignY=35&fontColor=58A6FF&height=70&animation=fadeIn" alt="Ali Novruz banner" />
-</p>
-<p align="center">
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&text=Ali%20Novruz&fontSize=44&fontAlignY=30&fontColor=58A6FF&height=60&animation=fadeIn" alt="Ali Novruz banner" />
+  <br/>
   <img src="https://img.shields.io/badge/Backend%20Developer-AZERBAIJAN-1F6FEB?style=for-the-badge&labelColor=0D1117&logo=none" alt="Backend developer from Azerbaijan" />
-</p>
+</div>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=650&lines=Backend+Engineer+%7C+Java+%26+Kotlin+%7C+Spring+Ecosystem;Docker+%2F+Kubernetes+%7C+PostgreSQL+%7C+Redis;Open+to+collaboration+and+new+opportunities" alt="typing intro" />
@@ -16,15 +15,16 @@
   <a href="https://github.com/ali-novruz?tab=repositories&sort=stargazers">
     <img src="https://img.shields.io/github/stars/ali-novruz?style=for-the-badge&logo=github&label=Stars&labelColor=181824&color=58a6ff" alt="stars" />
   </a>
+  <a href="#">
+    <img src="https://komarev.com/ghpvc/?username=ali-novruz&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="profile views" />
+  </a>
 </p>
 
 <div align="center">
   <img height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3djaTN4bHY1cW5lY3J0YmlvcG8wamlsYml5ejA2NTFubTl4bmI0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" />
 </div>
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=ali-novruz&label=Profile%20views&color=blueviolet&style=flat" alt="ali-novruz" />
-</p>
+
 
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
