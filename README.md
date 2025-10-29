@@ -40,25 +40,53 @@
   <li>Contact: <a href="mailto:alinovruz29@gmail.com">alinovruz29@gmail.com</a></li>
 </ul>
 
+<h3 align="left">About me</h3>
+<ul>
+  <li>Backend Engineer focused on JVM performance, DDD, and event-driven systems</li>
+  <li>Building remote patient monitoring at production scale with resilient data flows</li>
+  <li>Enjoy: Kotlin coroutines, Spring Cloud, Postgres tuning, Redis patterns</li>
+  <li>Open to collaboration and backend/platform roles</li>
+  
+</ul>
+
+<h3 align="left">Currently</h3>
+<ul>
+  <li>Idempotent messaging, outbox + Debezium, saga-based recoverable workflows</li>
+  <li>Testcontainers-first CI, robust integration tests, production-like staging</li>
+</ul>
+
+<h3 align="left">Featured projects</h3>
+
+| Project | What it does | Stack | Links |
+|---|---|---|---|
+| Remote Patient Monitoring System | Stream vitals, detect anomalies, notify clinicians | Spring Boot, Kafka, Postgres, Redis, K8s | <a href="https://github.com/ali-novruz/RemotePatientMonitoringSystem">Repo</a> |
+| Rate-limited API Gateway | Token bucket + leaky bucket with Redis | Kotlin, Spring WebFlux, Redis | <a href="#">Repo</a> |
+| E2E Observability Lab | Traces + metrics + logs with SLOs | OpenTelemetry, Prometheus, Grafana, Tempo, Loki | <a href="#">Repo</a> |
+
 <h3 align="left">Connect with me</h3>
 <div align="left">
-  <a href="https://www.instagram.com/ali__novruz" target="_blank">
+  <a href="https://www.instagram.com/ali__novruz" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=181824&style=for-the-badge" height="35" alt="instagram" />
   </a>
-  <a href="https://discordapp.com/users/1099172944711798824" target="_blank">
+  <a href="https://discordapp.com/users/1099172944711798824" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=181824&style=for-the-badge" height="35" alt="discord" />
   </a>
-  <a href="mailto:alinovruz29@gmail.com" target="_blank">
+  <a href="mailto:alinovruz29@gmail.com" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=181824&style=for-the-badge" height="35" alt="gmail" />
   </a>
-  <a href="https://gitlab.com/alinovruz29" target="_blank">
+  <a href="https://gitlab.com/alinovruz29" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=GitLab&logo=gitlab&label=&color=FC6D26&logoColor=white&labelColor=181824&style=for-the-badge" height="35" alt="gitlab" />
   </a>
-  <a href="https://www.linkedin.com/in/ali-novruz-447115356/" target="_blank">
+  <a href="https://www.linkedin.com/in/ali-novruz-447115356/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0A66C2&logoColor=white&labelColor=181824&style=for-the-badge&logoWidth=20&cacheSeconds=3600" height="35" alt="linkedin" />
   </a>
-</div>
+ </div>
 
+<p align="left">
+  <a href="mailto:alinovruz29@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-alinovruz29%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=white&labelColor=181824&color=D14836" alt="Email Ali Novruz" /></a>
+  <a href="https://www.linkedin.com/in/ali-novruz-447115356/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-Ali%20Novruz-0D1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=181824&color=0A66C2" alt="Ali Novruz on LinkedIn" /></a>
+  <a href="#" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Download%20CV-PDF-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=181824&color=E53935" alt="Download Ali Novruz CV (PDF)" /></a>
+</p>
 <br/>
 
 <h3 align="left">Languages & Tools</h3>
@@ -94,18 +122,40 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="32" alt="androidstudio" />
 </div>
 
+<h3 align="left">Tech stack (grouped)</h3>
+<ul>
+  <li>Languages: Java, Kotlin, Python, TypeScript</li>
+  <li>Backend: Spring Boot, Spring Cloud, WebFlux, gRPC</li>
+  <li>Data: PostgreSQL (BTREE/GiST/GIN), Redis (streams, bloom), Kafka</li>
+  <li>Infra: Docker, Kubernetes, Helm, ArgoCD, GitHub Actions</li>
+  <li>Observability: OpenTelemetry, Prometheus, Grafana, Loki, Tempo</li>
+  <li>Testing: JUnit 5, Testcontainers, WireMock, k6</li>
+</ul>
+
 <br/>
 
 <div align="center">
   <img 
-    src="https://github-readme-stats.vercel.app/api?username=ali-novruz&show_icons=true&hide_border=true&bg_color=0d1117&theme=github_dark&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff"
-    alt="GitHub Stats" height="170" />
+    src="https://github-readme-stats.vercel.app/api?username=ali-novruz&show_icons=true&hide_border=true&bg_color=0d1117&theme=github_dark&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&cache_seconds=21600"
+    alt="Ali Novruz GitHub contribution stats" height="170" />
   <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ali-novruz&layout=compact&hide_border=true&bg_color=0d1117&theme=github_dark&title_color=58a6ff&text_color=c9d1d9"
-    alt="Top Languages" height="170" />
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ali-novruz&layout=compact&hide_border=true&bg_color=0d1117&theme=github_dark&title_color=58a6ff&text_color=c9d1d9&hide=html,css&langs_count=8&cache_seconds=21600"
+    alt="Ali Novruz top languages by repo" height="170" />
   
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.vercel.app/?user=ali-novruz&hide_border=true&background=0D1117&date_format=%5BY.%5Dn.j&ring=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9&cache_seconds=86400" alt="GitHub Streak" />
+  <img src="https://streak-stats.vercel.app/?user=ali-novruz&hide_border=true&background=0D1117&date_format=%5BY.%5Dn.j&ring=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9&cache_seconds=86400" alt="Ali Novruz GitHub contribution streak" />
 </div>
+
+<h3 align="left">Recent activity</h3>
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+<h3 align="left">Latest blog posts</h3>
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+<h3 align="left">Weekly dev metrics</h3>
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
