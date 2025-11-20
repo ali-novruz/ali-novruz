@@ -137,6 +137,12 @@
   <img src="https://streak-stats.vercel.app/?user=ali-novruz&hide_border=true&background=0D1117&date_format=%5BY.%5Dn.j&ring=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9&cache_seconds=86400" alt="Ali Novruz GitHub contribution streak" />
 </div>
 
+### ☕ Support
+
+If my projects helped you and you’d like to support my work:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-blue)](https://buymeacoffee.com/ali__novruz)
+
 
 <h3 align="left">Contribution Snake</h3>
 <div align="center">
