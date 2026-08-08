@@ -46,17 +46,17 @@ workflows, and databases that stay fast when the load doesn't cooperate.
 <td valign="top" width="50%">
 
 **Right now**
-- 🏥 &nbsp;Remote Patient Monitoring — vitals ingestion at production scale
-- 🧭 &nbsp;DDD · event-driven microservices · observability · CI/CD
-- 🌱 &nbsp;Going deeper: JVM concurrency, coroutines, Postgres planning
+- Remote Patient Monitoring — vitals ingestion at production scale
+- DDD · event-driven microservices · observability · CI/CD
+- Going deeper: JVM concurrency, coroutines, Postgres planning
 
 </td>
 <td valign="top" width="50%">
 
 **Ask me about**
-- ⚡ &nbsp;Kafka delivery semantics and the outbox pattern
-- 🔁 &nbsp;Saga orchestration with compensating actions
-- 🧪 &nbsp;Testcontainers-first CI and contract testing
+- Kafka delivery semantics and the outbox pattern
+- Saga orchestration with compensating actions
+- Testcontainers-first CI and contract testing
 
 </td>
 </tr></table>
@@ -75,7 +75,7 @@ workflows, and databases that stay fast when the load doesn't cooperate.
 <tr>
 <td width="50%" valign="top">
 
-#### 🏥 &nbsp;[Remote Patient Monitoring System](https://github.com/ali-novruz/RemotePatientMonitoringSystem)
+#### [Remote Patient Monitoring System](https://github.com/ali-novruz/RemotePatientMonitoringSystem)
 
 <img src="https://img.shields.io/github/languages/top/ali-novruz/RemotePatientMonitoringSystem?style=flat-square&labelColor=0D1117&color=39D0D8" alt="" />
 <img src="https://img.shields.io/github/last-commit/ali-novruz/RemotePatientMonitoringSystem?style=flat-square&labelColor=0D1117&color=8B949E" alt="" />
@@ -89,7 +89,7 @@ downstream service dies mid-workflow.
 </td>
 <td width="50%" valign="top">
 
-#### 💬 &nbsp;[realtime-draft-messenger](https://github.com/ali-novruz/realtime-draft-messenger)
+#### [realtime-draft-messenger](https://github.com/ali-novruz/realtime-draft-messenger)
 
 <img src="https://img.shields.io/github/stars/ali-novruz/realtime-draft-messenger?style=flat-square&labelColor=0D1117&color=58A6FF" alt="" />
 <img src="https://img.shields.io/github/languages/top/ali-novruz/realtime-draft-messenger?style=flat-square&labelColor=0D1117&color=39D0D8" alt="" />
@@ -105,7 +105,7 @@ anything that has to survive a restart.
 <tr>
 <td width="50%" valign="top">
 
-#### 💾 &nbsp;[autodrive-recorder](https://github.com/ali-novruz/autodrive-recorder)
+#### [autodrive-recorder](https://github.com/ali-novruz/autodrive-recorder)
 
 <img src="https://img.shields.io/github/stars/ali-novruz/autodrive-recorder?style=flat-square&labelColor=0D1117&color=58A6FF" alt="" />
 <img src="https://img.shields.io/github/languages/top/ali-novruz/autodrive-recorder?style=flat-square&labelColor=0D1117&color=39D0D8" alt="" />
@@ -119,7 +119,7 @@ the encoder is still writing to.
 </td>
 <td width="50%" valign="top">
 
-#### 📡 &nbsp;[live-activity-tool](https://github.com/ali-novruz/live-activity-tool)
+#### [live-activity-tool](https://github.com/ali-novruz/live-activity-tool)
 
 <img src="https://img.shields.io/github/stars/ali-novruz/live-activity-tool?style=flat-square&labelColor=0D1117&color=58A6FF" alt="" />
 <img src="https://img.shields.io/github/languages/top/ali-novruz/live-activity-tool?style=flat-square&labelColor=0D1117&color=39D0D8" alt="" />
@@ -138,7 +138,7 @@ explicitly agree to publish.
 
 <br/>
 
-**🔬 &nbsp;Problems I'm working through right now**
+**Problems I'm working through right now**
 
 | | | | | |
 | :--- | :--- | :--- | :--- | :--- |
@@ -155,10 +155,6 @@ explicitly agree to publish.
 <td>
 
 ![Java](https://img.shields.io/badge/Java-0D1117?style=flat-square&logo=openjdk&logoColor=ED8B00)
-![Kotlin](https://img.shields.io/badge/Kotlin-0D1117?style=flat-square&logo=kotlin&logoColor=7F52FF)
-![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB)
-![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6)
-![SQL](https://img.shields.io/badge/SQL-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1)
 
 </td>
 </tr>
@@ -181,7 +177,6 @@ explicitly agree to publish.
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1)
 ![Redis](https://img.shields.io/badge/Redis-0D1117?style=flat-square&logo=redis&logoColor=FF4438)
 ![Kafka](https://img.shields.io/badge/Kafka-0D1117?style=flat-square&logo=apachekafka&logoColor=C9D1D9)
-![Debezium](https://img.shields.io/badge/Debezium-0D1117?style=flat-square&logoColor=C9D1D9)
 
 </td>
 </tr>
@@ -191,9 +186,6 @@ explicitly agree to publish.
 
 ![Docker](https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-0D1117?style=flat-square&logo=kubernetes&logoColor=326CE5)
-![GitHub Actions](https://img.shields.io/badge/Actions-0D1117?style=flat-square&logo=githubactions&logoColor=2088FF)
-![Nginx](https://img.shields.io/badge/Nginx-0D1117?style=flat-square&logo=nginx&logoColor=009639)
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=FCC624)
 
 </td>
 </tr>
@@ -202,8 +194,6 @@ explicitly agree to publish.
 <td>
 
 ![JUnit5](https://img.shields.io/badge/JUnit5-0D1117?style=flat-square&logo=junit5&logoColor=25A162)
-![Testcontainers](https://img.shields.io/badge/Testcontainers-0D1117?style=flat-square&logo=testcontainers&logoColor=C9D1D9)
-![Prometheus](https://img.shields.io/badge/Prometheus-0D1117?style=flat-square&logo=prometheus&logoColor=E6522C)
 ![Grafana](https://img.shields.io/badge/Grafana-0D1117?style=flat-square&logo=grafana&logoColor=F46800)
 ![Swagger](https://img.shields.io/badge/Swagger-0D1117?style=flat-square&logo=swagger&logoColor=85EA2D)
 
