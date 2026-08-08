@@ -1,71 +1,74 @@
 <!--
   ali-novruz / ali-novruz  —  GitHub profile README
-  ────────────────────────────────────────────────────────────
-  DESIGN SYSTEM — keep these values everywhere, never introduce a new colour:
-    bg / label   #0D1117
-    accent       #1F6FEB   (filled = important)
-    accent-light #58A6FF   (text + widget highlights)
-    text         #C9D1D9
-    muted        #8B949E
-    success      #2EA043
-  RULES
-    - Colour = hierarchy. Filled accent badges are CTAs. Dark badges are supporting info.
-    - Two badge styles only: for-the-badge (header + connect), flat-square (stack).
-    - Every section: H2 with one emoji, then content, then `---`.
-  TODO
-    - Replace REPO_2 / REPO_3 with real repositories, or delete those cells.
-    - Fill in the metric line under each project (stars, users, throughput, uptime…).
+  ══════════════════════════════════════════════════════════════
+  REQUIRED FILES — commit these next to the README:
+    assets/hero.svg      custom animated banner (yours alone, not a generator)
+    assets/divider.svg   gradient section rule
+  ══════════════════════════════════════════════════════════════
+  PALETTE — never introduce a colour outside this list:
+    #0D1117  base        #C9D1D9  text
+    #39D0D8  cyan        #8B949E  muted
+    #58A6FF  blue        #2EA043  success
+    #A371F7  violet      #30363D  border
+  The cyan→blue→violet gradient is the signature. It runs through the hero,
+  every divider, and the header badges — that repetition is what makes the
+  page read as one designed object instead of stacked widgets.
+  ══════════════════════════════════════════════════════════════
+  TODO — replace REPO_2 / REPO_3 with real repositories, or delete those cells.
 -->
 
-<!-- ══════════════════════  HEADER  ══════════════════════ -->
+<img src="./assets/hero.svg" width="100%" alt="Ali Novruz — Backend Engineer. Java, Kotlin, Spring, Kafka, PostgreSQL, Kubernetes." />
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&text=Ali%20Novruz&fontSize=46&fontAlignY=38&fontColor=58A6FF&height=76&animation=fadeIn" alt="Ali Novruz" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=2800&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=Backend+Engineer+%E2%80%94+Java+%2F+Kotlin+%2F+Spring;I+build+event-driven+systems+that+survive+failure;Kafka+%C2%B7+PostgreSQL+%C2%B7+Redis+%C2%B7+Kubernetes" alt="Backend Engineer — Java, Kotlin, Spring. I build event-driven systems that survive failure." />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Exactly-once+delivery+over+unreliable+networks;Sagas+that+roll+back+when+services+die+mid-flight;Postgres+that+stays+fast+when+load+doesn't+cooperate" alt="Exactly-once delivery · Recoverable sagas · Fast Postgres under load" />
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Backend%20Engineer-1F6FEB?style=for-the-badge&labelColor=0D1117" alt="Backend Engineer" />&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Azerbaijan-1F6FEB?style=for-the-badge&labelColor=0D1117" alt="Based in Azerbaijan" />&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Open%20to%20work-2EA043?style=for-the-badge&labelColor=0D1117" alt="Open to work" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/github/followers/ali-novruz?style=flat-square&logo=github&label=followers&labelColor=0D1117&color=1F6FEB" alt="Followers" />&nbsp;
-<img src="https://img.shields.io/github/stars/ali-novruz?style=flat-square&logo=github&label=stars&labelColor=0D1117&color=1F6FEB" alt="Stars" />&nbsp;
-<img src="https://komarev.com/ghpvc/?username=ali-novruz&style=flat-square&label=views&labelColor=0D1117&color=1F6FEB" alt="Profile views" />
+<img src="https://img.shields.io/badge/AZERBAIJAN-0D1117?style=for-the-badge&logo=googlemaps&logoColor=39D0D8" height="28" alt="Based in Azerbaijan" />&nbsp;
+<img src="https://img.shields.io/badge/OPEN%20TO%20WORK-0D1117?style=for-the-badge&logo=briefcase&logoColor=2EA043" height="28" alt="Open to work" />&nbsp;
+<img src="https://img.shields.io/github/followers/ali-novruz?style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=0D1117&color=58A6FF" height="28" alt="Followers" />&nbsp;
+<img src="https://komarev.com/ghpvc/?username=ali-novruz&style=for-the-badge&label=VIEWS&labelColor=0D1117&color=A371F7" height="28" alt="Profile views" />
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-<!-- ══════════════════════  ABOUT  ══════════════════════ -->
-
-## 👋 &nbsp;About
+## <img src="https://img.shields.io/badge/01-39D0D8?style=flat-square&labelColor=0D1117" height="20" alt="" />&nbsp; About
 
 I build **backend systems for healthcare**, mostly in Java and Kotlin on the Spring stack.
 My work sits where distributed systems get uncomfortable: exactly-once delivery, recoverable
 workflows, and databases that stay fast when the load doesn't cooperate.
 
-- 🏥 &nbsp;Building a **Remote Patient Monitoring System** — continuous vitals ingestion at production scale
-- 🧭 &nbsp;Working in: domain-driven design · event-driven microservices · observability · CI/CD
-- 🌱 &nbsp;Going deeper on: JVM concurrency, Kotlin coroutines, Postgres query planning
-- 💬 &nbsp;Ask me about: Kafka delivery semantics, the outbox pattern, Testcontainers-first CI
+<table border="0"><tr>
+<td valign="top" width="50%">
 
----
+**Right now**
+- 🏥 &nbsp;Remote Patient Monitoring — vitals ingestion at production scale
+- 🧭 &nbsp;DDD · event-driven microservices · observability · CI/CD
+- 🌱 &nbsp;Going deeper: JVM concurrency, coroutines, Postgres planning
 
-<!-- ══════════════════════  FEATURED WORK  ══════════════════════ -->
+</td>
+<td valign="top" width="50%">
 
-## 🚀 &nbsp;Featured work
+**Ask me about**
+- ⚡ &nbsp;Kafka delivery semantics and the outbox pattern
+- 🔁 &nbsp;Saga orchestration with compensating actions
+- 🧪 &nbsp;Testcontainers-first CI and contract testing
+
+</td>
+</tr></table>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## <img src="https://img.shields.io/badge/02-58A6FF?style=flat-square&labelColor=0D1117" height="20" alt="" />&nbsp; Featured work
 
 <table border="0">
 <tr>
 <td width="50%" valign="top">
 
 <a href="https://github.com/ali-novruz/RemotePatientMonitoringSystem">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ali-novruz&repo=RemotePatientMonitoringSystem&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&border_radius=8" alt="Remote Patient Monitoring System" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=ali-novruz&repo=RemotePatientMonitoringSystem&hide_border=true&border_radius=10&bg_color=0D1117&title_color=58A6FF&icon_color=39D0D8&text_color=8B949E" alt="Remote Patient Monitoring System" />
 </a>
 
 Ingests continuous vitals from bedside devices and routes them to clinicians in real time.
@@ -78,11 +81,11 @@ downstream service dies mid-workflow.
 <td width="50%" valign="top">
 
 <a href="https://github.com/ali-novruz/REPO_2">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ali-novruz&repo=REPO_2&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&border_radius=8" alt="Project two" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=ali-novruz&repo=REPO_2&hide_border=true&border_radius=10&bg_color=0D1117&title_color=58A6FF&icon_color=39D0D8&text_color=8B949E" alt="Project two" />
 </a>
 
-Two or three lines: what it does, who it's for, and the one engineering decision you'd defend
-in an interview. End with a number — stars, requests/sec, users, p99 latency.
+Two or three lines: what it does, who it's for, and the one engineering decision you'd
+defend in an interview. End with a number — stars, requests/sec, users, p99 latency.
 
 `Kotlin` `Spring Cloud` `Docker`
 
@@ -92,11 +95,11 @@ in an interview. End with a number — stars, requests/sec, users, p99 latency.
 <td width="50%" valign="top">
 
 <a href="https://github.com/ali-novruz/REPO_3">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ali-novruz&repo=REPO_3&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&border_radius=8" alt="Project three" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=ali-novruz&repo=REPO_3&hide_border=true&border_radius=10&bg_color=0D1117&title_color=58A6FF&icon_color=39D0D8&text_color=8B949E" alt="Project three" />
 </a>
 
-Same shape. If you don't have a third project worth this space, delete this cell — an empty
-slot reads better than a filler one.
+Same shape. If you don't have a third project worth this space, delete this cell — an
+empty slot reads better than a filler one.
 
 `Java` `PostgreSQL`
 
@@ -109,23 +112,24 @@ slot reads better than a filler one.
 
 | | |
 | :--- | :--- |
-| Messaging | Idempotent consumers, outbox + CDC |
-| Workflows | Sagas with compensating actions |
-| Testing | Testcontainers-first CI, contract tests |
-| Data | BTREE/GiST/GIN strategy, Redis Streams |
-| Ops | Prometheus metrics, SLO-driven alerting |
+| **Messaging** | Idempotent consumers, outbox + CDC |
+| **Workflows** | Sagas with compensating actions |
+| **Testing** | Testcontainers-first CI, contract tests |
+| **Data** | BTREE/GiST/GIN strategy, Redis Streams |
+| **Ops** | Prometheus metrics, SLO-driven alerting |
 
 </td>
 </tr>
 </table>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-<!-- ══════════════════════  STACK  ══════════════════════ -->
+## <img src="https://img.shields.io/badge/03-A371F7?style=flat-square&labelColor=0D1117" height="20" alt="" />&nbsp; Stack
 
-## 🧰 &nbsp;Stack
-
-<sub>**LANGUAGES**</sub>
+<table border="0">
+<tr>
+<td valign="top"><sub><b>LANGUAGES</b></sub></td>
+<td>
 
 ![Java](https://img.shields.io/badge/Java-0D1117?style=flat-square&logo=openjdk&logoColor=ED8B00)
 ![Kotlin](https://img.shields.io/badge/Kotlin-0D1117?style=flat-square&logo=kotlin&logoColor=7F52FF)
@@ -133,7 +137,11 @@ slot reads better than a filler one.
 ![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6)
 ![SQL](https://img.shields.io/badge/SQL-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1)
 
-<sub>**FRAMEWORKS & BUILD**</sub>
+</td>
+</tr>
+<tr>
+<td valign="top"><sub><b>FRAMEWORKS</b></sub></td>
+<td>
 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-0D1117?style=flat-square&logo=springboot&logoColor=6DB33F)
 ![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-0D1117?style=flat-square&logo=spring&logoColor=6DB33F)
@@ -141,22 +149,34 @@ slot reads better than a filler one.
 ![Gradle](https://img.shields.io/badge/Gradle-0D1117?style=flat-square&logo=gradle&logoColor=C9D1D9)
 ![Maven](https://img.shields.io/badge/Maven-0D1117?style=flat-square&logo=apachemaven&logoColor=C71A36)
 
-<sub>**DATA & MESSAGING**</sub>
+</td>
+</tr>
+<tr>
+<td valign="top"><sub><b>DATA</b></sub></td>
+<td>
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1)
 ![Redis](https://img.shields.io/badge/Redis-0D1117?style=flat-square&logo=redis&logoColor=FF4438)
 ![Kafka](https://img.shields.io/badge/Kafka-0D1117?style=flat-square&logo=apachekafka&logoColor=C9D1D9)
 ![Debezium](https://img.shields.io/badge/Debezium-0D1117?style=flat-square&logoColor=C9D1D9)
 
-<sub>**INFRASTRUCTURE**</sub>
+</td>
+</tr>
+<tr>
+<td valign="top"><sub><b>INFRA</b></sub></td>
+<td>
 
 ![Docker](https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-0D1117?style=flat-square&logo=kubernetes&logoColor=326CE5)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0D1117?style=flat-square&logo=githubactions&logoColor=2088FF)
+![GitHub Actions](https://img.shields.io/badge/Actions-0D1117?style=flat-square&logo=githubactions&logoColor=2088FF)
 ![Nginx](https://img.shields.io/badge/Nginx-0D1117?style=flat-square&logo=nginx&logoColor=009639)
 ![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=FCC624)
 
-<sub>**TESTING & OBSERVABILITY**</sub>
+</td>
+</tr>
+<tr>
+<td valign="top"><sub><b>QUALITY</b></sub></td>
+<td>
 
 ![JUnit5](https://img.shields.io/badge/JUnit5-0D1117?style=flat-square&logo=junit5&logoColor=25A162)
 ![Testcontainers](https://img.shields.io/badge/Testcontainers-0D1117?style=flat-square&logo=testcontainers&logoColor=C9D1D9)
@@ -164,75 +184,63 @@ slot reads better than a filler one.
 ![Grafana](https://img.shields.io/badge/Grafana-0D1117?style=flat-square&logo=grafana&logoColor=F46800)
 ![Swagger](https://img.shields.io/badge/Swagger-0D1117?style=flat-square&logo=swagger&logoColor=85EA2D)
 
----
+</td>
+</tr>
+</table>
 
-<!-- ══════════════════════  ACTIVITY  ══════════════════════ -->
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## 📊 &nbsp;Activity
+## <img src="https://img.shields.io/badge/04-39D0D8?style=flat-square&labelColor=0D1117" height="20" alt="" />&nbsp; Activity
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ali-novruz&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&border_radius=8&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&cache_seconds=21600" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ali-novruz&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&border_radius=8&theme=default&cache_seconds=21600" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ali-novruz&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&border_radius=8&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&cache_seconds=21600" alt="Ali Novruz's GitHub stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ali-novruz&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&border_radius=10&bg_color=0D1117&title_color=58A6FF&icon_color=39D0D8&text_color=8B949E&cache_seconds=21600" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ali-novruz&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&border_radius=10&theme=default&cache_seconds=21600" />
+  <img height="168" src="https://github-readme-stats.vercel.app/api?username=ali-novruz&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&border_radius=10&bg_color=0D1117&title_color=58A6FF&icon_color=39D0D8&text_color=8B949E&cache_seconds=21600" alt="Ali Novruz's GitHub stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ali-novruz&layout=compact&langs_count=6&hide=html,css&hide_border=true&border_radius=8&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&cache_seconds=21600" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ali-novruz&layout=compact&langs_count=6&hide=html,css&hide_border=true&border_radius=8&theme=default&cache_seconds=21600" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ali-novruz&layout=compact&langs_count=6&hide=html,css&hide_border=true&border_radius=8&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&cache_seconds=21600" alt="Most used languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ali-novruz&hide_border=true&border_radius=10&background=0D1117&ring=58A6FF&fire=A371F7&currStreakNum=C9D1D9&sideNums=8B949E&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=ali-novruz&hide_border=true&border_radius=10" />
+  <img height="168" src="https://streak-stats.demolab.com?user=ali-novruz&hide_border=true&border_radius=10&background=0D1117&ring=58A6FF&fire=A371F7&currStreakNum=C9D1D9&sideNums=8B949E&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E" alt="Contribution streak" />
 </picture>
 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ali-novruz&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=C9D1D9&title_color=58A6FF&area=true&area_color=1F6FEB&hide_border=true&radius=8" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ali-novruz&theme=github-light&hide_border=true&radius=8" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ali-novruz&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=C9D1D9&area=true&area_color=1F6FEB&hide_border=true&radius=8" alt="Contribution activity over the last 31 days" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ali-novruz&bg_color=0D1117&color=58A6FF&line=A371F7&point=39D0D8&title_color=58A6FF&area=true&area_color=1F6FEB&hide_border=true&radius=10" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ali-novruz&theme=github-light&hide_border=true&radius=10" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ali-novruz&bg_color=0D1117&color=58A6FF&line=A371F7&point=39D0D8&area=true&area_color=1F6FEB&hide_border=true&radius=10" alt="Contribution activity over the last 31 days" />
 </picture>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=ali-novruz&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="GitHub trophies" />
 
 </div>
 
-<!--
-  OPTIONAL EXTRAS — uncomment only if you actually want them. Each one you add
-  dilutes the ones above; the research is consistent that widget walls read as
-  template-filling, not personality.
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-  Streak counter:
-  <img src="https://streak-stats.demolab.com?user=ali-novruz&hide_border=true&border_radius=8&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakNum=C9D1D9&sideNums=8B949E&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E" alt="Contribution streak" />
-
-  Trophies:
-  <img src="https://github-profile-trophy.vercel.app/?username=ali-novruz&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="GitHub trophies" />
--->
-
----
-
-<!-- ══════════════════════  CONNECT  ══════════════════════ -->
-
-## 📬 &nbsp;Connect
+## <img src="https://img.shields.io/badge/05-58A6FF?style=flat-square&labelColor=0D1117" height="20" alt="" />&nbsp; Connect
 
 <div align="center">
 
+<br/>
+
 <a href="https://www.linkedin.com/in/ali-novruz-447115356/">
-<img src="https://img.shields.io/badge/Let's%20talk%20on%20LinkedIn-1F6FEB?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" height="34" alt="LinkedIn — primary contact" />
+<img src="https://img.shields.io/badge/LET'S%20TALK%20ON%20LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" height="38" alt="LinkedIn — primary contact" />
 </a>
 
 <br/><br/>
 
-<a href="mailto:alinovruz29@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" height="30" alt="Email" /></a>&nbsp;&nbsp;
-<a href="https://github.com/ali-novruz/ali-novruz/releases/download/v1.0.0/ALINOVRUZ.pdf"><img src="https://img.shields.io/badge/Résumé-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=EC1C24" height="30" alt="Download résumé (PDF)" /></a>&nbsp;&nbsp;
-<a href="https://gitlab.com/alinovruz29"><img src="https://img.shields.io/badge/GitLab-0D1117?style=for-the-badge&logo=gitlab&logoColor=FC6D26" height="30" alt="GitLab" /></a>&nbsp;&nbsp;
-<a href="https://discordapp.com/users/1099172944711798824"><img src="https://img.shields.io/badge/Discord-0D1117?style=for-the-badge&logo=discord&logoColor=5865F2" height="30" alt="Discord" /></a>&nbsp;&nbsp;
-<a href="https://www.instagram.com/ali__novruz"><img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F" height="30" alt="Instagram" /></a>&nbsp;&nbsp;
+<a href="mailto:alinovruz29@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" height="30" alt="Email" /></a>&nbsp;
+<a href="https://github.com/ali-novruz/ali-novruz/releases/download/v1.0.0/ALINOVRUZ.pdf"><img src="https://img.shields.io/badge/Résumé-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=EC1C24" height="30" alt="Download résumé (PDF)" /></a>&nbsp;
+<a href="https://gitlab.com/alinovruz29"><img src="https://img.shields.io/badge/GitLab-0D1117?style=for-the-badge&logo=gitlab&logoColor=FC6D26" height="30" alt="GitLab" /></a>&nbsp;
+<a href="https://discordapp.com/users/1099172944711798824"><img src="https://img.shields.io/badge/Discord-0D1117?style=for-the-badge&logo=discord&logoColor=5865F2" height="30" alt="Discord" /></a>&nbsp;
+<a href="https://www.instagram.com/ali__novruz"><img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F" height="30" alt="Instagram" /></a>&nbsp;
 <a href="https://buymeacoffee.com/ali__novruz"><img src="https://img.shields.io/badge/Coffee-0D1117?style=for-the-badge&logo=buymeacoffee&logoColor=FFDD00" height="30" alt="Buy me a coffee" /></a>
 
-</div>
-
----
-
-<!-- ══════════════════════  FOOTER  ══════════════════════ -->
-
-<div align="center">
+<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ali-novruz/ali-novruz/output/github-contribution-grid-snake-dark.svg" />
@@ -240,8 +248,8 @@ slot reads better than a filler one.
   <img src="https://raw.githubusercontent.com/ali-novruz/ali-novruz/output/github-contribution-grid-snake.svg" alt="Snake eating my contribution graph" />
 </picture>
 
-<br/>
-
-<sub><i>Thanks for stopping by.</i></sub>
-
 </div>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<div align="center"><sub><i>Thanks for stopping by.</i></sub></div>
