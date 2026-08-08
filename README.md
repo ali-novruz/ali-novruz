@@ -14,7 +14,9 @@
   every divider, and the header badges — that repetition is what makes the
   page read as one designed object instead of stacked widgets.
   ══════════════════════════════════════════════════════════════
-  TODO — replace REPO_2 / REPO_3 with real repositories, or delete those cells.
+  TODO — RemotePatientMonitoringSystem has no repo description or README on GitHub.
+  It carries the whole backend-engineer claim on this page, so it is the single
+  highest-value thing left to fix.
 -->
 
 <img src="./assets/hero.svg" width="100%" alt="Ali Novruz — Backend Engineer. Java, Kotlin, Spring, Kafka, PostgreSQL, Kubernetes." />
@@ -63,16 +65,23 @@ workflows, and databases that stay fast when the load doesn't cooperate.
 
 ## <img src="https://img.shields.io/badge/02-58A6FF?style=flat-square&labelColor=0D1117" height="20" alt="" />&nbsp; Featured work
 
+<!--
+  Cards are hand-built rather than github-readme-stats pins on purpose: the public
+  instance returns 503 under load, and a broken image is worse than no image.
+  The star / language / last-commit badges are live shields.io data.
+-->
+
 <table border="0">
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/ali-novruz/RemotePatientMonitoringSystem">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ali-novruz&repo=RemotePatientMonitoringSystem&hide_border=true&border_radius=10&bg_color=0D1117&title_color=58A6FF&icon_color=39D0D8&text_color=8B949E" alt="Remote Patient Monitoring System" />
-</a>
+#### 🏥 &nbsp;[Remote Patient Monitoring System](https://github.com/ali-novruz/RemotePatientMonitoringSystem)
 
-Ingests continuous vitals from bedside devices and routes them to clinicians in real time.
-Transactional outbox + Debezium for exactly-once delivery; sagas roll back cleanly when a
+<img src="https://img.shields.io/github/languages/top/ali-novruz/RemotePatientMonitoringSystem?style=flat-square&labelColor=0D1117&color=39D0D8" alt="" />
+<img src="https://img.shields.io/github/last-commit/ali-novruz/RemotePatientMonitoringSystem?style=flat-square&labelColor=0D1117&color=8B949E" alt="" />
+
+Ingests continuous vitals from bedside devices and routes them to clinicians in real
+time. Transactional outbox for exactly-once delivery; sagas roll back cleanly when a
 downstream service dies mid-workflow.
 
 `Spring Boot` `Kafka` `PostgreSQL` `Redis` `K8s`
@@ -80,47 +89,61 @@ downstream service dies mid-workflow.
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/ali-novruz/REPO_2">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ali-novruz&repo=REPO_2&hide_border=true&border_radius=10&bg_color=0D1117&title_color=58A6FF&icon_color=39D0D8&text_color=8B949E" alt="Project two" />
-</a>
+#### 💬 &nbsp;[realtime-draft-messenger](https://github.com/ali-novruz/realtime-draft-messenger)
 
-Two or three lines: what it does, who it's for, and the one engineering decision you'd
-defend in an interview. End with a number — stars, requests/sec, users, p99 latency.
+<img src="https://img.shields.io/github/stars/ali-novruz/realtime-draft-messenger?style=flat-square&labelColor=0D1117&color=58A6FF" alt="" />
+<img src="https://img.shields.io/github/languages/top/ali-novruz/realtime-draft-messenger?style=flat-square&labelColor=0D1117&color=39D0D8" alt="" />
 
-`Kotlin` `Spring Cloud` `Docker`
+Chat that shows what the other person is typing *before* they hit send. Socket.IO
+fan-out for the hot path, Redis for presence and ephemeral drafts, Postgres for
+anything that has to survive a restart.
+
+`Next.js` `Socket.IO` `Redis` `PostgreSQL`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/ali-novruz/REPO_3">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ali-novruz&repo=REPO_3&hide_border=true&border_radius=10&bg_color=0D1117&title_color=58A6FF&icon_color=39D0D8&text_color=8B949E" alt="Project three" />
-</a>
+#### 💾 &nbsp;[autodrive-recorder](https://github.com/ali-novruz/autodrive-recorder)
 
-Same shape. If you don't have a third project worth this space, delete this cell — an
-empty slot reads better than a filler one.
+<img src="https://img.shields.io/github/stars/ali-novruz/autodrive-recorder?style=flat-square&labelColor=0D1117&color=58A6FF" alt="" />
+<img src="https://img.shields.io/github/languages/top/ali-novruz/autodrive-recorder?style=flat-square&labelColor=0D1117&color=39D0D8" alt="" />
 
-`Java` `PostgreSQL`
+Background agent that ships OBS and ShadowPlay recordings to Google Drive. Resumable
+uploads survive a dropped connection, and a stability check refuses to touch a file
+the encoder is still writing to.
+
+`Python` `Google Drive API` `Resumable uploads`
 
 </td>
 <td width="50%" valign="top">
 
-<br/>
+#### 📡 &nbsp;[live-activity-tool](https://github.com/ali-novruz/live-activity-tool)
 
-**🔬 &nbsp;Currently working through**
+<img src="https://img.shields.io/github/stars/ali-novruz/live-activity-tool?style=flat-square&labelColor=0D1117&color=58A6FF" alt="" />
+<img src="https://img.shields.io/github/languages/top/ali-novruz/live-activity-tool?style=flat-square&labelColor=0D1117&color=39D0D8" alt="" />
 
-| | |
-| :--- | :--- |
-| **Messaging** | Idempotent consumers, outbox + CDC |
-| **Workflows** | Sagas with compensating actions |
-| **Testing** | Testcontainers-first CI, contract tests |
-| **Data** | BTREE/GiST/GIN strategy, Redis Streams |
-| **Ops** | Prometheus metrics, SLO-driven alerting |
+Privacy-first agent that streams Windows activity to a portfolio site in real time.
+Filtering happens on the client, so the server never receives anything you didn't
+explicitly agree to publish.
+
+`Python` `React` `WebSockets`
 
 </td>
 </tr>
 </table>
+
+<div align="center"><sub><a href="https://github.com/ali-novruz?tab=repositories&sort=stargazers">→ &nbsp;all 10 repositories</a></sub></div>
+
+<br/>
+
+**🔬 &nbsp;Problems I'm working through right now**
+
+| | | | | |
+| :--- | :--- | :--- | :--- | :--- |
+| **Messaging** | **Workflows** | **Testing** | **Data** | **Ops** |
+| Idempotent consumers, outbox + CDC | Sagas with compensating actions | Testcontainers-first CI, contract tests | BTREE/GiST/GIN strategy, Redis Streams | Prometheus metrics, SLO-driven alerting |
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
@@ -194,11 +217,12 @@ empty slot reads better than a filler one.
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ali-novruz&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&border_radius=10&bg_color=0D1117&title_color=58A6FF&icon_color=39D0D8&text_color=8B949E&cache_seconds=21600" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ali-novruz&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&border_radius=10&theme=default&cache_seconds=21600" />
-  <img height="168" src="https://github-readme-stats.vercel.app/api?username=ali-novruz&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&border_radius=10&bg_color=0D1117&title_color=58A6FF&icon_color=39D0D8&text_color=8B949E&cache_seconds=21600" alt="Ali Novruz's GitHub stats" />
-</picture>
+<img src="https://img.shields.io/github/followers/ali-novruz?style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=0D1117&color=39D0D8" height="26" alt="Followers" />&nbsp;
+<img src="https://img.shields.io/github/stars/ali-novruz?style=for-the-badge&logo=github&label=STARS&labelColor=0D1117&color=58A6FF" height="26" alt="Total stars earned" />&nbsp;
+<img src="https://img.shields.io/badge/PUBLIC%20REPOS-10-0D1117?style=for-the-badge&logo=github&logoColor=A371F7" height="26" alt="10 public repositories" />
+
+<br/><br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ali-novruz&hide_border=true&border_radius=10&background=0D1117&ring=58A6FF&fire=A371F7&currStreakNum=C9D1D9&sideNums=8B949E&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E" />
   <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=ali-novruz&hide_border=true&border_radius=10" />
@@ -213,11 +237,16 @@ empty slot reads better than a filler one.
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ali-novruz&bg_color=0D1117&color=58A6FF&line=A371F7&point=39D0D8&area=true&area_color=1F6FEB&hide_border=true&radius=10" alt="Contribution activity over the last 31 days" />
 </picture>
 
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=ali-novruz&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="GitHub trophies" />
-
 </div>
+
+<!--
+  DELIBERATELY NOT HERE — both were verified broken on 2026-08-08:
+    github-readme-stats.vercel.app   → 503 SERVICE_UNAVAILABLE (public instance is saturated)
+    github-profile-trophy.vercel.app → failed to load
+  If you want the stats card back, fork and deploy your own instance, then swap the host:
+    gh repo fork anuraghazra/github-readme-stats --clone
+  Self-hosted URLs are not rate-limited and will not 503 on your profile.
+-->
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
